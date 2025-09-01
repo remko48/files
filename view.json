@@ -137,7 +137,7 @@
     },
     {
         "identifier": "vn-bgt-beheer",
-        "elementRef": "ac-bgt-beheer",
+        "elementRef": "id-5f236166-7794-4cfa-9ff8-740ca549c130",
         "element": {
           "identifier": "id-5f236166-7794-4cfa-9ff8-740ca549c130",
           "name": "BGT-beheercomponent",
@@ -164,7 +164,7 @@
           "lineColor": { "r": 0, "g": 0, "b": 0 },
           "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
         }
-    },
+         },
     {
       "identifier": "vn-gegevensdistributie",
       "elementRef": "ac-gegevensdistributie",
