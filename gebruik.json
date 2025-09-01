@@ -1,1 +1,9 @@
-[]
+[
+  {
+  "voorzieningId": {
+    "id": "openwoo",
+    "naam": "OpenWoo",
+    "referentieComponenten": ["ac-bgt-beheer"]
+  }
+}
+]
