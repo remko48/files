@@ -136,46 +136,62 @@
       }
     },
     {
-        "identifier": "vn-bgt-beheer",
-        "elementRef": "id-5f236166-7794-4cfa-9ff8-740ca549c130",
-        "element": {
-          "identifier": "id-5f236166-7794-4cfa-9ff8-740ca549c130",
-          "name": "BGT-beheercomponent",
-          "type": "ApplicationComponent",
-          "documentation": "Component voor het beheren van metingen en geografische objecten voor bronbeheer van de Basisregistratie Grootschalige Topografie (BGT, minimum variant) of het InformatieModel Geo (IMGEO, uitgebreidere variant), inclusief ondersteuning voor het afstemmen met overige bronhouders (verticale keten) en interne afnemers (horizontale keten).",
-          "properties": [
-            { "propertyDefinitionRef": "propid-20", "value": "BBN 1 en risicoanalyse voor Integriteit" },
-            { "propertyDefinitionRef": "propid-21", "value": "231" },
-            { "propertyDefinitionRef": "propid-22", "value": "2" },
-            { "propertyDefinitionRef": "propid-23", "value": "2 : schade te herstellen door ambtelijke opschaling." },
-            { "propertyDefinitionRef": "propid-19", "value": "In gebruik" },
-            { "propertyDefinitionRef": "propid-3",  "value": "Referentiecomponent" },
-            { "propertyDefinitionRef": "propid-24", "value": "3" },
-            { "propertyDefinitionRef": "propid-25", "value": "3 : Verlies, beschadiging, ongeoorloofde wijziging van informatie heeft een grote impact voor betrokkene(n)." },
-            { "propertyDefinitionRef": "propid-2",  "value": "5f236166-7794-4cfa-9ff8-740ca549c130" },
-            { "propertyDefinitionRef": "propid-26", "value": "1" },
-            { "propertyDefinitionRef": "propid-27", "value": "1 : irritatie en ongemak bij burgers geventileerd in de media." }
-          ]
-        },
-        "position": { "x": 167, "y": 427, "w": 133, "h": 53 },
-        "style": {
-          "color": { "r": 0, "g": 0, "b": 0 },
-          "fillColor": { "r": 218, "g": 238, "b": 243 },
-          "lineColor": { "r": 0, "g": 0, "b": 0 },
-          "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
-        }
-         },
-    {
-      "identifier": "vn-gegevensdistributie",
-      "elementRef": "ac-gegevensdistributie",
+      "identifier": "vn-bgt-beheer",
+      "elementRef": "id-5f236166-7794-4cfa-9ff8-740ca549c130",
       "element": {
-        "identifier": "ac-gegevensdistributie",
-        "name": "Gegevensdistributiecomponent",
+        "identifier": "id-5f236166-7794-4cfa-9ff8-740ca549c130",
+        "name": "BGT-beheercomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor het beheren van metingen en geografische objecten voor bronbeheer van de Basisregistratie Grootschalige Topografie (BGT, minimum variant) of het InformatieModel Geo (IMGEO, uitgebreidere variant), inclusief ondersteuning voor het afstemmen met overige bronhouders (verticale keten) en interne afnemers (horizontale keten).",
+        "properties": [
+          {
+            "propertyDefinitionRef": "propid-20",
+            "value": "BBN 1 en risicoanalyse voor Integriteit"
+          },
+          { "propertyDefinitionRef": "propid-21", "value": "231" },
+          { "propertyDefinitionRef": "propid-22", "value": "2" },
+          {
+            "propertyDefinitionRef": "propid-23",
+            "value": "2 : schade te herstellen door ambtelijke opschaling."
+          },
+          { "propertyDefinitionRef": "propid-19", "value": "In gebruik" },
+          { "propertyDefinitionRef": "propid-3", "value": "Referentiecomponent" },
+          { "propertyDefinitionRef": "propid-24", "value": "3" },
+          {
+            "propertyDefinitionRef": "propid-25",
+            "value": "3 : Verlies, beschadiging, ongeoorloofde wijziging van informatie heeft een grote impact voor betrokkene(n)."
+          },
+          {
+            "propertyDefinitionRef": "propid-2",
+            "value": "5f236166-7794-4cfa-9ff8-740ca549c130"
+          },
+          { "propertyDefinitionRef": "propid-26", "value": "1" },
+          {
+            "propertyDefinitionRef": "propid-27",
+            "value": "1 : irritatie en ongemak bij burgers geventileerd in de media."
+          }
+        ]
+      },
+      "position": { "x": 167, "y": 427, "w": 133, "h": 53 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 218, "g": 238, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      }
+    },
+
+    {
+      "identifier": "vn-gegevensmagazijn",
+      "elementRef": "ac-gegevensmagazijn",
+      "element": {
+        "identifier": "ac-gegevensmagazijn",
+        "name": "Gegevensmagazijncomponent",
         "type": "ApplicationComponent",
         "documentation": "",
         "properties": []
       },
-      "position": { "x": 347, "y": 427, "w": 133, "h": 53 },
+      "position": { "x": 493, "y": 427, "w": 133, "h": 53 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
         "fillColor": { "r": 218, "g": 238, "b": 243 },
