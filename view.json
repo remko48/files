@@ -182,6 +182,24 @@
     },
 
     {
+      "identifier": "vn-gegevensdistributie",
+      "elementRef": "ac-gegevensdistributie",
+      "element": {
+        "identifier": "ac-gegevensdistributie",
+        "name": "Gegevensdistributiecomponent",
+        "type": "ApplicationComponent",
+        "documentation": "",
+        "properties": []
+      },
+      "position": { "x": 347, "y": 427, "w": 133, "h": 53 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 218, "g": 238, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      }
+    },
+    {
       "identifier": "vn-gegevensmagazijn",
       "elementRef": "ac-gegevensmagazijn",
       "element": {
