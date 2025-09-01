@@ -1,16 +1,56 @@
 {
-  "id": "view-lv01",
-  "name": "LV01 BGT basisregistratie en SVB view",
-  "documentation": "Mocked from GEMMA LV01.",
+  "id": "view-bbn-referentiecomponenten",
+  "name": "Basisbeveiligingsniveau van referentiecomponenten",
+  "documentation": "Bron: https://www.gemmaonline.nl/wiki/Basisbeveiligingsniveau_van_referentiecomponenten",
   "properties": [
-    { "propertyDefinitionRef": "propid-title", "value": "LV01 BGT basisregistratie en SVB view" }
+    {
+      "propertyDefinitionRef": "propid-title",
+      "value": "Basisbeveiligingsniveau van referentiecomponenten"
+    }
   ],
   "nodes": [
     {
-      "identifier": "vn-assembleren-bgt",
-      "elementRef": "bs-assembleren",
-      "element": { "identifier": "bs-assembleren", "name": "Assembleren BGT aanleveringen van bronhouders", "type": "BusinessService", "documentation": "", "properties": [] },
-      "position": { "x": 7, "y": 7, "w": 341, "h": 36 },
+      "identifier": "note-besturende-bedrijfsfuncties",
+      "elementRef": null,
+      "type": "Label",
+      "label": "Besturende bedrijfsfuncties",
+      "position": { "x": 30, "y": 0, "w": 3770, "h": 319 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 255 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 22, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-741c701d-51fa-4f6aa-572c-5c341446381",
+      "elementRef": "GEMMA/id-058b95b0-ecb4-4cef-970c-754b1f0113a4",
+      "element": {
+        "identifier": "GEMMA/id-058b95b0-ecb4-4cef-970c-754b1f0113a4",
+        "name": "Sturing",
+        "type": "BusinessFunction",
+        "documentation": "Het richting geven aan de organisatie door het bepalen van de gewenste verandering en de kaders waarbinnen deze verandering moet plaatsvinden, het vormen van samenwerkingsverbanden om hier in vulling aan te geven en het verantwoorden of doelstellingen ook behaald zijn. (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 60, "y": 60, "w": 3700, "h": 239 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 242, "b": 155 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 16, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-17a3bae4-fca3-494e9-69fe-e1e951db7bd",
+      "elementRef": "GEMMA/id-2a0745ce-06c7-40ee-8f20-5a242666db11",
+      "element": {
+        "identifier": "GEMMA/id-2a0745ce-06c7-40ee-8f20-5a242666db11",
+        "name": "Samenwerkingsvorming",
+        "type": "BusinessFunction",
+        "documentation": "Het vormen van een samenwerkingsverband met andere organisaties en het maken van de daarbij behorende afspraken. (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 3395, "y": 148, "w": 304, "h": 133 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
         "fillColor": { "r": 255, "g": 255, "b": 204 },
@@ -19,10 +59,16 @@
       }
     },
     {
-      "identifier": "vn-beschikbaarstellen",
-      "elementRef": "bs-beschikbaarstellen",
-      "element": { "identifier": "bs-beschikbaarstellen", "name": "Beschikbaarstelllen grootschalige topografie Nederland", "type": "BusinessService", "documentation": "", "properties": [] },
-      "position": { "x": 407, "y": 7, "w": 366, "h": 36 },
+      "identifier": "GEMMA/id-efa941bc-f268-4ef88-3c45-ca5cd3eff9b",
+      "elementRef": "GEMMA/id-7987f0d4-21f1-4f01-96e5-80d1bb340fcb",
+      "element": {
+        "identifier": "GEMMA/id-7987f0d4-21f1-4f01-96e5-80d1bb340fcb",
+        "name": "Verantwoording",
+        "type": "BusinessFunction",
+        "documentation": "Het rapporteren naar belanghebbenden binnen en buiten de organisatie over de mate waarin wordt voldaan aan verplichtingen en afspraken. (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 2218, "y": 145, "w": 304, "h": 133 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
         "fillColor": { "r": 255, "g": 255, "b": 204 },
@@ -31,155 +77,523 @@
       }
     },
     {
-      "identifier": "vn-bijhouding-bgt",
-      "elementRef": "as-bijhouding-bgt",
-      "element": { "identifier": "as-bijhouding-bgt", "name": "Bijhouding BGT", "type": "ApplicationService", "documentation": "", "properties": [] },
-      "position": { "x": 187, "y": 85, "w": 153, "h": 36 },
+      "identifier": "GEMMA/id-01161338-afb3-4d9db-4207-d3a34e6eed4",
+      "elementRef": "GEMMA/id-96b10611-f296-4817-bbb5-01dfa0b28d4f",
+      "element": {
+        "identifier": "GEMMA/id-96b10611-f296-4817-bbb5-01dfa0b28d4f",
+        "name": "Politieke data-analyse component",
+        "type": "ApplicationComponent",
+        "documentation": "Component om op basis van beschikbare data inzicht te geven in politieke en bestuurlijke gedragingen. (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 2255, "y": 181, "w": 220, "h": 80 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 183, "g": 222, "b": 232 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-b577c19f-29d3-4d93b-678f-fbcfb5505c4",
+      "elementRef": "GEMMA/id-ee339dfd-51b9-4c27-8a52-c19e39c90cc1",
+      "element": {
+        "identifier": "GEMMA/id-ee339dfd-51b9-4c27-8a52-c19e39c90cc1",
+        "name": "Strategie",
+        "type": "BusinessFunction",
+        "documentation": "Het bepalen welke veranderingen zouden moeten worden doorgevoerd en de doelstellingen die daaraan ten grondslag liggen. (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 830, "y": 80, "w": 304, "h": 197 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 204 },
         "lineColor": { "r": 0, "g": 0, "b": 0 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
       }
     },
     {
-      "identifier": "vn-lv-bgt",
-      "elementRef": "ac-lv-bgt",
-      "element": { "identifier": "ac-lv-bgt", "name": "LV-BGT - Basisregistratie Grootschalige Topografie", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 407, "y": 87, "w": 367, "h": 36 },
+      "identifier": "GEMMA/id-d3fa2ed1-b5f5-4af8a-243b-0b614828634",
+      "elementRef": "GEMMA/id-8e0a2cb6-843f-44c4-8a40-1b52c1ead4e2",
+      "element": {
+        "identifier": "GEMMA/id-8e0a2cb6-843f-44c4-8a40-1b52c1ead4e2",
+        "name": "Strategievorming fysieke leefomgeving",
+        "type": "BusinessFunction",
+        "documentation": "De ruimtelijke strategie over de ontwikkeling van de fysieke leefomgeving ... De uitwerking ... notities bij de bedrijfsfunctie ontwikkeling. (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 854, "y": 120, "w": 257, "h": 137 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
+        "fillColor": { "r": 255, "g": 255, "b": 204 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-6bb0cfeb-d479-4bcb9-e76c-f1853a0e684",
+      "elementRef": "GEMMA/id-482b112b-dc5e-49b6-879c-a22f22cb6941",
+      "element": {
+        "identifier": "GEMMA/id-482b112b-dc5e-49b6-879c-a22f22cb6941",
+        "name": "Omgevingsbeleidcomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor het ontwikkelen, beheren en digitaal beschikbaar stellen van omgevingsdocumenten ... (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 870, "y": 160, "w": 220, "h": 80 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-5fe6161b-43a1-497cb-a33e-63a35420917",
+      "elementRef": "GEMMA/id-73ea4c93-80ec-4454-8c21-f9d2a8945829",
+      "element": {
+        "identifier": "GEMMA/id-73ea4c93-80ec-4454-8c21-f9d2a8945829",
+        "name": "Besturing",
+        "type": "BusinessFunction",
+        "documentation": "Het inrichten en uitvoeren van de besluitvormingsprocessen en -structuren en het nemen van strategische besluiten. (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 94, "y": 145, "w": 304, "h": 133 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 204 },
         "lineColor": { "r": 0, "g": 0, "b": 0 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
       }
     },
     {
-      "identifier": "vn-svb-bgt",
-      "elementRef": "ac-svb-bgt",
-      "element": { "identifier": "ac-svb-bgt", "name": "SVB-BGT services en portaal", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 7, "y": 165, "w": 228, "h": 36 },
+      "identifier": "GEMMA/id-09af8f9c-7401-47719-d702-496c39a03ab",
+      "elementRef": "GEMMA/id-caa38667-222c-48da-8c5e-c643b7a7657a",
+      "element": {
+        "identifier": "GEMMA/id-caa38667-222c-48da-8c5e-c643b7a7657a",
+        "name": "Bestuur- en Raadsinformatiecomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor het ondersteunen en openbaar maken van het politieke proces binnen een gemeente. (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 1566, "y": 182, "w": 220, "h": 80 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+
+    {
+      "identifier": "note-ondersteunende-bedrijfsfuncties",
+      "elementRef": null,
+      "type": "Label",
+      "label": "Ondersteunende bedrijfsfuncties",
+      "position": { "x": 30, "y": 2720, "w": 3770, "h": 550 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 255 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 22, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-68d095e6-a69a-431ba-8848-d7fc3a617d6",
+      "elementRef": "GEMMA/id-79014004-56c3-4d04-8971-9609cb68d5a4",
+      "element": {
+        "identifier": "GEMMA/id-79014004-56c3-4d04-8971-9609cb68d5a4",
+        "name": "Juridische ondersteuning",
+        "type": "BusinessFunction",
+        "documentation": "Het bieden van advies en ondersteuning op het gebied van wet- en regelgeving. (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 2400, "y": 2840, "w": 287, "h": 160 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 204 },
         "lineColor": { "r": 0, "g": 0, "b": 0 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
       }
     },
     {
-      "identifier": "vn-aanleveringen-bgt",
-      "elementRef": "as-aanleveringen-bgt",
-      "element": { "identifier": "as-aanleveringen-bgt", "name": "Aanleveringen BGT", "type": "ApplicationService", "documentation": "", "properties": [] },
-      "position": { "x": 7, "y": 245, "w": 171, "h": 36 },
+      "identifier": "GEMMA/id-19a576eb-156f-488fb-1aa5-74287b03318",
+      "elementRef": "GEMMA/id-ec221e15-9b3c-411b-b2f0-c4527d59f25f",
+      "element": {
+        "identifier": "GEMMA/id-ec221e15-9b3c-411b-b2f0-c4527d59f25f",
+        "name": "Bezwaar- en beroepcomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor het afhandelen van bezwaren en beroepen. (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 2431, "y": 2881, "w": 220, "h": 80 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 183, "g": 222, "b": 232 },
+        "fillColor": { "r": 160, "g": 203, "b": 226 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-1c4e46b0-fbbd-45548-7606-7deebcdc847",
+      "elementRef": "GEMMA/id-877dc781-70bb-11e4-67ab-0050568a6153",
+      "element": {
+        "identifier": "GEMMA/id-877dc781-70bb-11e4-67ab-0050568a6153",
+        "name": "Huisvesting",
+        "type": "BusinessFunction",
+        "documentation": "Het verlenen van vastgoedgerelateerde diensten, parkeerdiensten en nutsdiensten ... (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 1410, "y": 2840, "w": 287, "h": 353 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 204 },
         "lineColor": { "r": 0, "g": 0, "b": 0 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
       }
     },
     {
-      "identifier": "vn-stuf-imgeo",
-      "elementRef": "constraint-stuf-imgeo",
-      "element": { "identifier": "constraint-stuf-imgeo", "name": "StUF Geo IMGeo", "type": "Constraint", "documentation": "", "properties": [] },
-      "position": { "x": 7, "y": 325, "w": 767, "h": 53 },
+      "identifier": "GEMMA/id-7018a35f-c4a5-4cd58-c65c-0d40fbf46d1",
+      "elementRef": "GEMMA/id-20492152-ebb3-40b9-8256-9627dd878cda",
+      "element": {
+        "identifier": "GEMMA/id-20492152-ebb3-40b9-8256-9627dd878cda",
+        "name": "Facilitair reserveer- en uitleencomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor het reserveren en administreren van facilitaire middelen. (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 1444, "y": 2883, "w": 220, "h": 80 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 204, "g": 204, "b": 255 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-b3b6c479-4aad-4943b-7631-c353e20802b",
+      "elementRef": "GEMMA/id-ea7f4f73-822d-4bab-a1b4-bdee9adcc400",
+      "element": {
+        "identifier": "GEMMA/id-ea7f4f73-822d-4bab-a1b4-bdee9adcc400",
+        "name": "Gebouwinstallatiecomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component om ... gebouwinstallaties centraal aan te sturen ... (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 1446, "y": 2983, "w": 220, "h": 80 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-40152669-e01d-4ceb9-a065-a0a23836ffc",
+      "elementRef": "GEMMA/id-a8e19e73-b3ea-4ada-8cc9-71375570ab7f",
+      "element": {
+        "identifier": "GEMMA/id-a8e19e73-b3ea-4ada-8cc9-71375570ab7f",
+        "name": "Personeelsmanagement",
+        "type": "BusinessFunction",
+        "documentation": "Het ervoor zorgdragen dat er competente medewerkers beschikbaar zijn ... (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 2750, "y": 2840, "w": 287, "h": 353 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 204 },
         "lineColor": { "r": 0, "g": 0, "b": 0 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
       }
     },
     {
-      "identifier": "vn-bgt-beheer",
-      "elementRef": "ac-bgt-beheer",
-      "element": { "identifier": "ac-bgt-beheer", "name": "BGT-beheercomponent", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 167, "y": 427, "w": 133, "h": 53 },
+      "identifier": "GEMMA/id-2986a7ca-2dfd-416c8-c973-08f5c8b2e9d",
+      "elementRef": "GEMMA/id-4e06db9f-a70b-4e5e-9ddf-cb3c75abfe61",
+      "element": {
+        "identifier": "GEMMA/id-4e06db9f-a70b-4e5e-9ddf-cb3c75abfe61",
+        "name": "Personeelsinformatiecomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor het administreren en managen van medewerkers. (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 2778, "y": 2883, "w": 220, "h": 80 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
+        "fillColor": { "r": 160, "g": 203, "b": 226 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-6331a8c2-25a8-4ab3b-962d-e26cdc7bab0",
+      "elementRef": "GEMMA/id-cbee6dba-0fe3-4007-a537-e11b6c38b3be",
+      "element": {
+        "identifier": "GEMMA/id-cbee6dba-0fe3-4007-a537-e11b6c38b3be",
+        "name": "Salarisadministratie en-verwerkingcomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component waarmee personeels- en salarisgegevens ... (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 2778, "y": 2983, "w": 220, "h": 80 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 160, "g": 203, "b": 226 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-c5c8b365-0090-4890a-342c-ec8b72378f5",
+      "elementRef": "GEMMA/id-152df797-5e65-43d9-b993-68468dfb4f42",
+      "element": {
+        "identifier": "GEMMA/id-152df797-5e65-43d9-b993-68468dfb4f42",
+        "name": "Tijdregistratiecomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor het registreren van gewerkte tijdseenheden ... (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 2778, "y": 3083, "w": 220, "h": 80 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-977db888-1cd8-42da8-764a-919c79f1b0a",
+      "elementRef": "GEMMA/id-97a44ed9-572e-44b1-8c16-71ef808839b5",
+      "element": {
+        "identifier": "GEMMA/id-97a44ed9-572e-44b1-8c16-71ef808839b5",
+        "name": "Communicatiemanagement",
+        "type": "BusinessFunction",
+        "documentation": "Het ervoor zorgdragen dat de organisatie zich op de juiste wijze uit ... (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 750, "y": 2840, "w": 287, "h": 353 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 204 },
         "lineColor": { "r": 0, "g": 0, "b": 0 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
       }
     },
     {
-      "identifier": "vn-gegevensdistributie",
-      "elementRef": "ac-gegevensdistributie",
-      "element": { "identifier": "ac-gegevensdistributie", "name": "Gegevensdistributiecomponent", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 347, "y": 427, "w": 133, "h": 53 },
+      "identifier": "GEMMA/id-b8ab3c27-349f-448cb-2d1b-6f01cd50dd1",
+      "elementRef": "GEMMA/id-d477e1d3-bf92-4b6f-b08d-78348dd0360f",
+      "element": {
+        "identifier": "GEMMA/id-d477e1d3-bf92-4b6f-b08d-78348dd0360f",
+        "name": "Sociale mediacomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor het ontvangen en versturen van berichten binnen sociale media ... (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 788, "y": 3083, "w": 220, "h": 80 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-9a30454d-865d-4eaa8-32ec-0724df382a0",
+      "elementRef": "GEMMA/id-dc4fe2ef-4df2-40eb-a42a-5e632f19da43",
+      "element": {
+        "identifier": "GEMMA/id-dc4fe2ef-4df2-40eb-a42a-5e632f19da43",
+        "name": "Intranetcomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor het publiceren van informatie op een besloten website ... (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 788, "y": 2883, "w": 220, "h": 80 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-01a17fe6-8578-416f8-7e0c-15b769ef8f7",
+      "elementRef": "GEMMA/id-8f3030f7-aca7-4225-9962-915a11694b1a",
+      "element": {
+        "identifier": "GEMMA/id-8f3030f7-aca7-4225-9962-915a11694b1a",
+        "name": "Narrowcasting component",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor het via beeldschermen uitzenden van relevante informatie ... (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 788, "y": 2983, "w": 220, "h": 80 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-4cc4c25c-5a95-456bb-c5e2-4b190e54eec",
+      "elementRef": "GEMMA/id-4230dc51-fbc7-4e12-830d-0b64b3dac5d5",
+      "element": {
+        "identifier": "GEMMA/id-4230dc51-fbc7-4e12-830d-0b64b3dac5d5",
+        "name": "Inkoop- en contractmanagement",
+        "type": "BusinessFunction",
+        "documentation": "Het verwerven van middelen en het bewaken van de afspraken hierover met de leverancier. (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 2070, "y": 2840, "w": 287, "h": 353 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 204 },
         "lineColor": { "r": 0, "g": 0, "b": 0 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
       }
     },
     {
-      "identifier": "vn-gegevensmagazijn",
-      "elementRef": "ac-gegevensmagazijn",
-      "element": { "identifier": "ac-gegevensmagazijn", "name": "Gegevensmagazijncomponent", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 493, "y": 427, "w": 133, "h": 53 },
+      "identifier": "GEMMA/id-11d2ca07-24b5-44e89-7c15-7a848a69c95",
+      "elementRef": "GEMMA/id-7c017cc4-26c1-4880-8af1-5f162ea559fe",
+      "element": {
+        "identifier": "GEMMA/id-7c017cc4-26c1-4880-8af1-5f162ea559fe",
+        "name": "Inkoopcomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor ondersteuning van het inkopen van producten. (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 2105, "y": 2983, "w": 220, "h": 80 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
+        "fillColor": { "r": 160, "g": 203, "b": 226 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-94e6c671-ca53-4a689-f07f-b15e5fc0745",
+      "elementRef": "GEMMA/id-f2c4e665-ff0c-456e-9359-181cd64283f3",
+      "element": {
+        "identifier": "GEMMA/id-f2c4e665-ff0c-456e-9359-181cd64283f3",
+        "name": "Contractbeheercomponent",
+        "type": "ApplicationComponent",
+        "documentation": "De component ondersteunt het vastleggen en beheren van contracten met leveranciers en klanten. (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 2104, "y": 2883, "w": 220, "h": 80 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-55440925-689e-4202a-fdc2-8b47829b047",
+      "elementRef": "GEMMA/id-1b024c55-a823-4f47-bed6-b913065d910d",
+      "element": {
+        "identifier": "GEMMA/id-1b024c55-a823-4f47-bed6-b913065d910d",
+        "name": "Financieel management",
+        "type": "BusinessFunction",
+        "documentation": "Het zorgdragen voor alle inkomende en uitgaande financiële stromen. (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 1080, "y": 2840, "w": 287, "h": 353 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 204 },
         "lineColor": { "r": 0, "g": 0, "b": 0 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
       }
     },
     {
-      "identifier": "vn-bor",
-      "elementRef": "ac-bor",
-      "element": { "identifier": "ac-bor", "name": "BOR-component", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 640, "y": 427, "w": 133, "h": 53 },
+      "identifier": "GEMMA/id-08cd1b66-7c93-40689-3504-4ed01725f72",
+      "elementRef": "GEMMA/id-45d49c0d-ef2c-48fa-9ebf-9b5b84678445",
+      "element": {
+        "identifier": "GEMMA/id-45d49c0d-ef2c-48fa-9ebf-9b5b84678445",
+        "name": "Financieel component",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor financieel management, administratie en budgetbeheersing (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 1112, "y": 2983, "w": 220, "h": 80 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
+        "fillColor": { "r": 160, "g": 203, "b": 226 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-4521f758-2d43-4b2cb-d160-d3be74c9686",
+      "elementRef": "GEMMA/id-adf9a814-810d-4e75-abc8-bff0f3578490",
+      "element": {
+        "identifier": "GEMMA/id-adf9a814-810d-4e75-abc8-bff0f3578490",
+        "name": "Planning en control component",
+        "type": "ApplicationComponent",
+        "documentation": "Component om planning- en controlcycli te ondersteunen ... (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 1112, "y": 3083, "w": 220, "h": 80 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 160, "g": 203, "b": 226 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-e9aeb6b5-d5b1-473ea-92f4-bdcd0128864",
+      "elementRef": "GEMMA/id-f7d148a7-351e-4d82-911f-983ad5fdf083",
+      "element": {
+        "identifier": "GEMMA/id-f7d148a7-351e-4d82-911f-983ad5fdf083",
+        "name": "Inningencomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor ondersteuning van het proces van innen, invorderen en kwijtschelden ... (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 1112, "y": 2883, "w": 220, "h": 80 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
+        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
+      }
+    },
+    {
+      "identifier": "GEMMA/id-92e2a1ad-3b88-41d6a-d2bf-80bb745ab6d",
+      "elementRef": "GEMMA/id-2bd849c5-1f1b-4df4-aa2d-9b483a026711",
+      "element": {
+        "identifier": "GEMMA/id-2bd849c5-1f1b-4df4-aa2d-9b483a026711",
+        "name": "Informatiseringsmanagement",
+        "type": "BusinessFunction",
+        "documentation": "Het ervoor zorgen dat informatiebehoeften bekend zijn en zijn vertaald naar gewenste functionaliteiten ... (BusinessFunction)",
+        "properties": []
+      },
+      "position": { "x": 1740, "y": 2840, "w": 287, "h": 173 },
+      "style": {
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 204 },
         "lineColor": { "r": 0, "g": 0, "b": 0 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
       }
     },
     {
-      "identifier": "vn-inwinnen",
-      "elementRef": "as-inwinnen-verwerken",
-      "element": { "identifier": "as-inwinnen-verwerken", "name": "Inwinnen en verwerken van geometrische gegevens", "type": "ApplicationService", "documentation": "", "properties": [] },
-      "position": { "x": 7, "y": 460, "w": 133, "h": 67 },
+      "identifier": "GEMMA/id-4e90d47d-8899-4a3d8-34f8-8e250830f5a",
+      "elementRef": "GEMMA/id-2df9670c-a8d8-4a7b-b7d1-a52c404dc6fd",
+      "element": {
+        "identifier": "GEMMA/id-2df9670c-a8d8-4a7b-b7d1-a52c404dc6fd",
+        "name": "Architectuur- en ontwerpcomponent",
+        "type": "ApplicationComponent",
+        "documentation": "Component voor het ontwikkelen en bewaken van architecturen ... (ApplicationComponent)",
+        "properties": []
+      },
+      "position": { "x": 1767, "y": 2880, "w": 220, "h": 80 },
       "style": {
         "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 183, "g": 222, "b": 232 },
+        "fillColor": { "r": 210, "g": 227, "b": 243 },
         "lineColor": { "r": 0, "g": 0, "b": 0 },
-        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
-      }
-    },
-    {
-      "identifier": "vn-geo-inwincomponent",
-      "elementRef": "ac-geo-inwin",
-      "element": { "identifier": "ac-geo-inwin", "name": "Geo-gegevens inwincomponent", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 167, "y": 514, "w": 133, "h": 53 },
-      "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
-        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+        "font": { "name": "Segoe UI, Arial", "size": 9, "style": "normal" }
       }
     }
   ],
-  "connections": [
-    { "identifier": "rel-1", "relationshipRef": "rel-1", "source": "vn-aanleveringen-bgt", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 92.5, "y": 282.5 }, { "x": 92.5, "y": 314.06 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 }, "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" } }, "relationship": { "identifier": "rel-1", "type": "realization", "properties": [] } },
-    { "identifier": "rel-2", "relationshipRef": "rel-2", "source": "vn-svb-bgt", "target": "vn-aanleveringen-bgt", "bendpoints": [{ "x": 92.5, "y": 202.5 }, { "x": 92.5, "y": 234.06 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-2", "type": "realization", "properties": [] } },
-    { "identifier": "rel-3", "relationshipRef": "rel-3", "source": "vn-svb-bgt", "target": "vn-assembleren-bgt", "bendpoints": [{ "x": 121, "y": 163.5 }, { "x": 121, "y": 53.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-3", "type": "realization", "properties": [] } },
-    { "identifier": "rel-4", "relationshipRef": "rel-4", "source": "vn-lv-bgt", "target": "vn-beschikbaarstellen", "bendpoints": [{ "x": 590, "y": 85.5 }, { "x": 590, "y": 53.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-4", "type": "realization", "properties": [] } },
-    { "identifier": "rel-5", "relationshipRef": "rel-5", "source": "vn-lv-bgt", "target": "vn-bijhouding-bgt", "bendpoints": [{ "x": 405.5, "y": 104 }, { "x": 350.94, "y": 104 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-5", "type": "realization", "properties": [] } },
-    { "identifier": "rel-6", "relationshipRef": "rel-6", "source": "vn-bijhouding-bgt", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 286, "y": 122.5 }, { "x": 286, "y": 128 }, { "x": 286, "y": 314.06 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-6", "type": "realization", "properties": [] } },
-    { "identifier": "rel-7", "relationshipRef": "rel-7", "source": "vn-bijhouding-bgt", "target": "vn-svb-bgt", "bendpoints": [{ "x": 210, "y": 122.5 }, { "x": 210, "y": 128 }, { "x": 210, "y": 162.56 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-7", "type": "serving", "properties": [] } },
-
-    { "identifier": "rel-8", "relationshipRef": "rel-8", "source": "vn-bgt-beheer", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 233.5, "y": 425.5 }, { "x": 233.5, "y": 388.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 }, "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" } }, "relationship": { "identifier": "rel-8", "type": "realization", "properties": [ { "propertyDefinitionRef": "propid-verbinding", "value": "Verplicht" } ] }, "label": { "text": "Verplicht" } },
-
-    { "identifier": "rel-9", "relationshipRef": "rel-9", "source": "vn-geo-inwincomponent", "target": "vn-inwinnen", "bendpoints": [{ "x": 165.5, "y": 520.5 }, { "x": 150.41, "y": 520.5 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-9", "type": "realization", "properties": [] } },
-
-    { "identifier": "rel-10", "relationshipRef": "rel-10", "source": "vn-bor", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 706.5, "y": 425.5 }, { "x": 706.5, "y": 388.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 }, "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" } }, "relationship": { "identifier": "rel-10", "type": "realization", "properties": [ { "propertyDefinitionRef": "propid-verbinding", "value": "Verplicht" } ] }, "label": { "text": "Verplicht" } },
-
-    { "identifier": "rel-11", "relationshipRef": "rel-11", "source": "vn-gegevensmagazijn", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 559.5, "y": 425.5 }, { "x": 559.5, "y": 388.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 }, "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" } }, "relationship": { "identifier": "rel-11", "type": "realization", "properties": [ { "propertyDefinitionRef": "propid-verbinding", "value": "Verplicht" } ] }, "label": { "text": "Verplicht" } },
-
-    { "identifier": "rel-12", "relationshipRef": "rel-12", "source": "vn-gegevensdistributie", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 413.5, "y": 425.5 }, { "x": 413.5, "y": 388.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 }, "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" } }, "relationship": { "identifier": "rel-12", "type": "realization", "properties": [ { "propertyDefinitionRef": "propid-verbinding", "value": "Aanbevolen" } ] }, "label": { "text": "Aanbevolen" } }
-  ]
+  "connections": []
 }
