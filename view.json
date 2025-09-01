@@ -13,33 +13,12 @@
       "identifier": "LBL1",
       "type": "Label",
       "label": "Voorbeeld: Zaaksysteem en Zaak",
-      "position": {
-        "x": 80,
-        "y": 20,
-        "w": 400,
-        "h": 40
-      },
+      "position": { "x": 80, "y": 20, "w": 400, "h": 40 },
       "style": {
-        "color": {
-          "r": 0,
-          "g": 0,
-          "b": 0
-        },
-        "fillColor": {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        },
-        "lineColor": {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        },
-        "font": {
-          "name": "Arial",
-          "size": 16,
-          "style": "bold"
-        }
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 255, "g": 255, "b": 255 },
+        "lineColor": { "r": 255, "g": 255, "b": 255 },
+        "font": { "name": "Arial", "size": 16, "style": "bold" }
       }
     },
     {
@@ -52,33 +31,12 @@
         "documentation": "Applicatie die zaken beheert",
         "properties": []
       },
-      "position": {
-        "x": 100,
-        "y": 80,
-        "w": 180,
-        "h": 70
-      },
+      "position": { "x": 100, "y": 80, "w": 180, "h": 70 },
       "style": {
-        "color": {
-          "r": 0,
-          "g": 0,
-          "b": 0
-        },
-        "fillColor": {
-          "r": 214,
-          "g": 234,
-          "b": 248
-        },
-        "lineColor": {
-          "r": 93,
-          "g": 173,
-          "b": 226
-        },
-        "font": {
-          "name": "Arial",
-          "size": 12,
-          "style": "normal"
-        }
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 214, "g": 234, "b": 248 },
+        "lineColor": { "r": 93, "g": 173, "b": 226 },
+        "font": { "name": "Arial", "size": 12, "style": "normal" }
       }
     },
     {
@@ -91,33 +49,12 @@
         "documentation": "Dataobject met zaakgegevens",
         "properties": []
       },
-      "position": {
-        "x": 380,
-        "y": 90,
-        "w": 140,
-        "h": 50
-      },
+      "position": { "x": 380, "y": 90, "w": 140, "h": 50 },
       "style": {
-        "color": {
-          "r": 0,
-          "g": 0,
-          "b": 0
-        },
-        "fillColor": {
-          "r": 254,
-          "g": 245,
-          "b": 231
-        },
-        "lineColor": {
-          "r": 245,
-          "g": 176,
-          "b": 65
-        },
-        "font": {
-          "name": "Arial",
-          "size": 12,
-          "style": "normal"
-        }
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 254, "g": 245, "b": 231 },
+        "lineColor": { "r": 245, "g": 176, "b": 65 },
+        "font": { "name": "Arial", "size": 12, "style": "normal" }
       }
     },
     {
@@ -130,33 +67,12 @@
         "documentation": "Processtap voor behandeling van een aanvraag",
         "properties": []
       },
-      "position": {
-        "x": 120,
-        "y": 220,
-        "w": 220,
-        "h": 60
-      },
+      "position": { "x": 120, "y": 220, "w": 220, "h": 60 },
       "style": {
-        "color": {
-          "r": 0,
-          "g": 0,
-          "b": 0
-        },
-        "fillColor": {
-          "r": 232,
-          "g": 248,
-          "b": 245
-        },
-        "lineColor": {
-          "r": 72,
-          "g": 201,
-          "b": 176
-        },
-        "font": {
-          "name": "Arial",
-          "size": 12,
-          "style": "normal"
-        }
+        "color": { "r": 0, "g": 0, "b": 0 },
+        "fillColor": { "r": 232, "g": 248, "b": 245 },
+        "lineColor": { "r": 72, "g": 201, "b": 176 },
+        "font": { "name": "Arial", "size": 12, "style": "normal" }
       }
     }
   ],
@@ -164,104 +80,54 @@
     {
       "identifier": "R1-v",
       "relationshipRef": "R1",
-      "source": "A1",
-      "target": "B1",
+      "source": "A1-v",
+      "target": "B1-v",
       "bendpoints": [],
       "style": {
-        "color": {
-          "r": 51,
-          "g": 51,
-          "b": 51,
-          "a": 1
-        },
-        "font": {
-          "name": "Arial",
-          "size": 12,
-          "style": "bold"
-        }
+        "color": { "r": 51, "g": 51, "b": 51, "a": 1 },
+        "font": { "name": "Arial", "size": 12, "style": "bold" }
       },
       "relationship": {
         "identifier": "R1",
         "type": "AccessRelationship",
         "properties": [
-          {
-            "propertyDefinitionRef": "propid-verbinding",
-            "value": "leest/schrijft"
-          }
+          { "propertyDefinitionRef": "propid-verbinding", "value": "leest/schrijft" }
         ]
       }
     },
     {
       "identifier": "R2-v",
       "relationshipRef": "R2",
-      "source": "C1",
-      "target": "A1",
-      "bendpoints": [
-        {
-          "x": 220,
-          "y": 190
-        }
-      ],
+      "source": "C1-v",
+      "target": "A1-v",
+      "bendpoints": [{ "x": 220, "y": 190 }],
       "style": {
-        "color": {
-          "r": 51,
-          "g": 51,
-          "b": 51,
-          "a": 1
-        },
-        "font": {
-          "name": "Arial",
-          "size": 12,
-          "style": "italic"
-        }
+        "color": { "r": 51, "g": 51, "b": 51, "a": 1 },
+        "font": { "name": "Arial", "size": 12, "style": "italic" }
       },
       "relationship": {
         "identifier": "R2",
         "type": "ServingRelationship",
         "properties": [
-          {
-            "propertyDefinitionRef": "propid-verbinding",
-            "value": "maakt gebruik van"
-          }
+          { "propertyDefinitionRef": "propid-verbinding", "value": "maakt gebruik van" }
         ]
       }
     },
     {
       "identifier": "R3-v",
       "relationshipRef": "R3",
-      "source": "C1",
-      "target": "B1",
-      "bendpoints": [
-        {
-          "x": 260,
-          "y": 210
-        },
-        {
-          "x": 380,
-          "y": 200
-        }
-      ],
+      "source": "C1-v",
+      "target": "B1-v",
+      "bendpoints": [{ "x": 260, "y": 210 }, { "x": 380, "y": 200 }],
       "style": {
-        "color": {
-          "r": 68,
-          "g": 68,
-          "b": 68,
-          "a": 1
-        },
-        "font": {
-          "name": "Arial",
-          "size": 11,
-          "style": "normal"
-        }
+        "color": { "r": 68, "g": 68, "b": 68, "a": 1 },
+        "font": { "name": "Arial", "size": 11, "style": "normal" }
       },
       "relationship": {
         "identifier": "R3",
         "type": "FlowRelationship",
         "properties": [
-          {
-            "propertyDefinitionRef": "propid-verbinding",
-            "value": "zaakdata"
-          }
+          { "propertyDefinitionRef": "propid-verbinding", "value": "zaakdata" }
         ]
       }
     }
