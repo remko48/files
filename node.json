@@ -1,0 +1,810 @@
+[
+    {
+        "originId": "id-36619",
+        "identifier": "id-36619",
+        "relationshipRef": {
+            "originId": "id-eb42b066-9af6-4765-b670-f672b6aac864",
+            "identifier": "id-eb42b066-9af6-4765-b670-f672b6aac864",
+            "source": "id-b9604af6-1e0c-46c9-b870-fabca229545a",
+            "target": "id-bd14bbe1-8db0-11e3-67ab-0050568a6153",
+            "type": "Realization",
+            "properties": [
+                {
+                    "originId": "id-eb42b066-9af6-4765-b670-f672b6aac864-propid-2",
+                    "propertyDefinitionRef": "propid-2"
+                }
+            ],
+            "@self": {
+                "id": "aa325df1-8bac-4121-9c52-15f317410adb",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "id": "aa325df1-8bac-4121-9c52-15f317410adb"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1109",
+                "updated": "2025-05-02T12:35:02+00:00",
+                "created": "2025-05-02T11:28:53+00:00",
+                "published": "2025-05-02T11:28:53+00:00",
+                "deleted": null
+            },
+            "id": "aa325df1-8bac-4121-9c52-15f317410adb"
+        },
+        "type": "Relationship",
+        "source": "id-36639",
+        "target": "id-36640",
+        "style": {
+            "originId": "id-36619-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        }
+    },
+    {
+        "originId": "id-36621",
+        "identifier": "id-36621",
+        "relationshipRef": {
+            "originId": "id-b2eeb675-167e-40ea-baf0-650a057d31b4",
+            "identifier": "id-b2eeb675-167e-40ea-baf0-650a057d31b4",
+            "source": "id-ab83abb1-7ecf-11e3-67ab-0050568a6153",
+            "target": "id-b9604af6-1e0c-46c9-b870-fabca229545a",
+            "type": "Realization",
+            "properties": [
+                {
+                    "originId": "id-b2eeb675-167e-40ea-baf0-650a057d31b4-propid-2",
+                    "propertyDefinitionRef": "propid-2"
+                }
+            ],
+            "@self": {
+                "id": "1d23564a-8200-46e0-a4be-43d752621a47",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "id": "1d23564a-8200-46e0-a4be-43d752621a47"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1109",
+                "updated": "2025-05-02T12:35:56+00:00",
+                "created": "2025-05-02T11:28:58+00:00",
+                "published": "2025-05-02T11:28:58+00:00",
+                "deleted": null
+            },
+            "id": "1d23564a-8200-46e0-a4be-43d752621a47"
+        },
+        "type": "Relationship",
+        "source": "id-36642",
+        "target": "id-36639",
+        "style": {
+            "originId": "id-36621-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        }
+    },
+    {
+        "originId": "id-36625",
+        "identifier": "id-36625",
+        "relationshipRef": {
+            "originId": "id-deaa94e6-a7df-45d7-9677-c0f39f638c80",
+            "identifier": "id-deaa94e6-a7df-45d7-9677-c0f39f638c80",
+            "source": "id-ab83abb1-7ecf-11e3-67ab-0050568a6153",
+            "target": "id-e3be3987-db64-4074-b2c4-68fcaf44b70d",
+            "type": "Realization",
+            "properties": [
+                {
+                    "originId": "id-deaa94e6-a7df-45d7-9677-c0f39f638c80-propid-2",
+                    "propertyDefinitionRef": "propid-2"
+                }
+            ],
+            "@self": {
+                "id": "d9648752-fdf2-4af7-a419-4a8a328d7dc8",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "id": "d9648752-fdf2-4af7-a419-4a8a328d7dc8"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1109",
+                "updated": "2025-05-02T12:35:59+00:00",
+                "created": "2025-05-02T11:28:58+00:00",
+                "published": "2025-05-02T11:28:58+00:00",
+                "deleted": null
+            },
+            "id": "d9648752-fdf2-4af7-a419-4a8a328d7dc8"
+        },
+        "type": "Relationship",
+        "source": "id-36642",
+        "target": "id-36641",
+        "style": {
+            "originId": "id-36625-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        }
+    },
+    {
+        "originId": "id-36622",
+        "identifier": "id-36622",
+        "relationshipRef": {
+            "originId": "id-dd55f6b5-5928-4985-b0b0-00bc6e585d0d",
+            "identifier": "id-dd55f6b5-5928-4985-b0b0-00bc6e585d0d",
+            "source": "id-a9602f71-7ecf-11e3-67ab-0050568a6153",
+            "target": "id-4716b8e9-d2a5-4cec-98ba-233fb53204d7",
+            "type": "Realization",
+            "properties": [
+                {
+                    "originId": "id-dd55f6b5-5928-4985-b0b0-00bc6e585d0d-propid-2",
+                    "propertyDefinitionRef": "propid-2"
+                }
+            ],
+            "@self": {
+                "id": "697c9328-e025-482b-a889-0d5d4fd9a820",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "id": "697c9328-e025-482b-a889-0d5d4fd9a820"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1109",
+                "updated": "2025-05-02T12:35:58+00:00",
+                "created": "2025-05-02T11:28:58+00:00",
+                "published": "2025-05-02T11:28:58+00:00",
+                "deleted": null
+            },
+            "id": "697c9328-e025-482b-a889-0d5d4fd9a820"
+        },
+        "type": "Relationship",
+        "source": "id-36644",
+        "target": "id-36643",
+        "style": {
+            "originId": "id-36622-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        }
+    },
+    {
+        "originId": "id-36624",
+        "identifier": "id-36624",
+        "relationshipRef": {
+            "originId": "id-931b27c1-693f-477c-be3a-859166a25b87",
+            "identifier": "id-931b27c1-693f-477c-be3a-859166a25b87",
+            "source": "id-a9602f71-7ecf-11e3-67ab-0050568a6153",
+            "target": "id-86f5d7d3-ed26-42b6-ac3c-feb9bf78fe06",
+            "type": "Realization",
+            "properties": [
+                {
+                    "originId": "id-931b27c1-693f-477c-be3a-859166a25b87-propid-2",
+                    "propertyDefinitionRef": "propid-2"
+                }
+            ],
+            "@self": {
+                "id": "ab4db75e-ed35-494b-b811-bfdc6cc44e45",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "id": "ab4db75e-ed35-494b-b811-bfdc6cc44e45"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1109",
+                "updated": "2025-05-02T12:35:55+00:00",
+                "created": "2025-05-02T11:28:58+00:00",
+                "published": "2025-05-02T11:28:58+00:00",
+                "deleted": null
+            },
+            "id": "ab4db75e-ed35-494b-b811-bfdc6cc44e45"
+        },
+        "type": "Relationship",
+        "source": "id-36644",
+        "target": "id-36645",
+        "style": {
+            "originId": "id-36624-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        }
+    },
+    {
+        "originId": "id-36623",
+        "identifier": "id-36623",
+        "relationshipRef": {
+            "originId": "id-4495008e-a05e-4cb2-ad51-1cb5a463305c",
+            "identifier": "id-4495008e-a05e-4cb2-ad51-1cb5a463305c",
+            "source": "id-86f5d7d3-ed26-42b6-ac3c-feb9bf78fe06",
+            "target": "id-bd14bbe1-8db0-11e3-67ab-0050568a6153",
+            "type": "Realization",
+            "properties": [
+                {
+                    "originId": "id-4495008e-a05e-4cb2-ad51-1cb5a463305c-propid-2",
+                    "propertyDefinitionRef": "propid-2"
+                }
+            ],
+            "@self": {
+                "id": "ba07821c-8222-4b1d-924c-6e04a9536cdc",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "id": "ba07821c-8222-4b1d-924c-6e04a9536cdc"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1109",
+                "updated": "2025-05-02T12:34:54+00:00",
+                "created": "2025-05-02T11:28:52+00:00",
+                "published": "2025-05-02T11:28:52+00:00",
+                "deleted": null
+            },
+            "id": "ba07821c-8222-4b1d-924c-6e04a9536cdc"
+        },
+        "type": "Relationship",
+        "source": "id-36645",
+        "target": "id-36640",
+        "style": {
+            "originId": "id-36623-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        },
+        "bendpoints": [
+            {
+                "x": "286",
+                "y": "128"
+            }
+        ]
+    },
+    {
+        "originId": "id-36626",
+        "identifier": "id-36626",
+        "relationshipRef": {
+            "originId": "id-6b5ffd18-d476-4943-a06c-68f4daf246cd",
+            "identifier": "id-6b5ffd18-d476-4943-a06c-68f4daf246cd",
+            "source": "id-86f5d7d3-ed26-42b6-ac3c-feb9bf78fe06",
+            "target": "id-ab83abb1-7ecf-11e3-67ab-0050568a6153",
+            "type": "Serving",
+            "properties": [
+                {
+                    "originId": "id-6b5ffd18-d476-4943-a06c-68f4daf246cd-propid-2",
+                    "propertyDefinitionRef": "propid-2"
+                }
+            ],
+            "@self": {
+                "id": "3023aa48-eb45-495e-9fe7-b056ca11e449",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "id": "3023aa48-eb45-495e-9fe7-b056ca11e449"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1104",
+                "updated": "2025-05-02T12:35:04+00:00",
+                "created": "2025-05-02T11:28:53+00:00",
+                "published": "2025-05-02T11:28:53+00:00",
+                "deleted": null
+            },
+            "id": "3023aa48-eb45-495e-9fe7-b056ca11e449"
+        },
+        "type": "Relationship",
+        "source": "id-36645",
+        "target": "id-36642",
+        "style": {
+            "originId": "id-36626-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        },
+        "bendpoints": [
+            {
+                "x": "210",
+                "y": "128"
+            }
+        ]
+    },
+    {
+        "originId": "id-36629",
+        "identifier": "id-36629",
+        "relationshipRef": {
+            "originId": "id-ebca6145-b83d-41b8-8b03-fa3a646385b7",
+            "identifier": "id-ebca6145-b83d-41b8-8b03-fa3a646385b7",
+            "source": "id-5f236166-7794-4cfa-9ff8-740ca549c130",
+            "target": "id-bd14bbe1-8db0-11e3-67ab-0050568a6153",
+            "type": "Realization",
+            "name": "Verplicht",
+            "name-lang": "en",
+            "properties": [
+                {
+                    "originId": "id-ebca6145-b83d-41b8-8b03-fa3a646385b7-propid-61",
+                    "propertyDefinitionRef": "propid-61",
+                    "value": "Verplicht",
+                    "value-lang": "en"
+                },
+                {
+                    "originId": "id-ebca6145-b83d-41b8-8b03-fa3a646385b7-propid-2",
+                    "propertyDefinitionRef": "propid-2",
+                    "value": "ebca6145-b83d-41b8-8b03-fa3a646385b7",
+                    "value-lang": "en"
+                }
+            ],
+            "@self": {
+                "id": "8b8e754b-59c1-4739-b79d-e23ca023a06e",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "properties.1.value": "ebca6145-b83d-41b8-8b03-fa3a646385b7"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1400",
+                "updated": "2025-05-02T11:30:08+00:00",
+                "created": "2025-05-02T11:30:08+00:00",
+                "published": "2025-05-02T11:30:08+00:00",
+                "deleted": null
+            },
+            "id": "8b8e754b-59c1-4739-b79d-e23ca023a06e"
+        },
+        "type": "Relationship",
+        "source": "id-36647",
+        "target": "id-36640",
+        "style": {
+            "originId": "id-36629-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        }
+    },
+    {
+        "originId": "id-36633",
+        "identifier": "id-36633",
+        "relationshipRef": {
+            "originId": "id-74a5bbfb14de4a10a0c46a8fcfd969e6",
+            "identifier": "id-74a5bbfb14de4a10a0c46a8fcfd969e6",
+            "source": "id-b9c3b132-1ec8-4c05-9357-d762e360e15b",
+            "target": "id-ae3ee2c78abe46839b702496921250ab",
+            "type": "Realization",
+            "properties": [
+                {
+                    "originId": "id-74a5bbfb14de4a10a0c46a8fcfd969e6-propid-2",
+                    "propertyDefinitionRef": "propid-2"
+                }
+            ],
+            "@self": {
+                "id": "77bc2f4a-9f11-47cd-a6cb-1b06f3ab25c6",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "id": "77bc2f4a-9f11-47cd-a6cb-1b06f3ab25c6"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1093",
+                "updated": "2025-05-02T12:35:28+00:00",
+                "created": "2025-05-02T11:28:55+00:00",
+                "published": "2025-05-02T11:28:55+00:00",
+                "deleted": null
+            },
+            "id": "77bc2f4a-9f11-47cd-a6cb-1b06f3ab25c6"
+        },
+        "type": "Relationship",
+        "source": "id-36648",
+        "target": "id-36646",
+        "style": {
+            "originId": "id-36633-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        }
+    },
+    {
+        "originId": "id-36634",
+        "identifier": "id-36634",
+        "relationshipRef": {
+            "originId": "id-2dd8c191-0945-44e6-87d7-1416344dce06",
+            "identifier": "id-2dd8c191-0945-44e6-87d7-1416344dce06",
+            "source": "id-6d7fba88-cb82-49cc-be4b-e0001f056ba7",
+            "target": "id-bd14bbe1-8db0-11e3-67ab-0050568a6153",
+            "type": "Realization",
+            "name": "Verplicht",
+            "name-lang": "en",
+            "properties": [
+                {
+                    "originId": "id-2dd8c191-0945-44e6-87d7-1416344dce06-propid-61",
+                    "propertyDefinitionRef": "propid-61",
+                    "value": "Verplicht",
+                    "value-lang": "en"
+                },
+                {
+                    "originId": "id-2dd8c191-0945-44e6-87d7-1416344dce06-propid-2",
+                    "propertyDefinitionRef": "propid-2",
+                    "value": "2dd8c191-0945-44e6-87d7-1416344dce06",
+                    "value-lang": "en"
+                }
+            ],
+            "@self": {
+                "id": "61258a9d-7514-4d22-bd18-2a62b161c288",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "properties.1.value": "2dd8c191-0945-44e6-87d7-1416344dce06"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1400",
+                "updated": "2025-05-02T11:30:04+00:00",
+                "created": "2025-05-02T11:30:04+00:00",
+                "published": "2025-05-02T11:30:04+00:00",
+                "deleted": null
+            },
+            "id": "61258a9d-7514-4d22-bd18-2a62b161c288"
+        },
+        "type": "Relationship",
+        "source": "id-36649",
+        "target": "id-36640",
+        "style": {
+            "originId": "id-36634-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        }
+    },
+    {
+        "originId": "id-36636",
+        "identifier": "id-36636",
+        "relationshipRef": {
+            "originId": "id-2615cd4d-6843-461d-be5c-d49d6125ce3d",
+            "identifier": "id-2615cd4d-6843-461d-be5c-d49d6125ce3d",
+            "source": "id-06321658-50d1-4153-b007-6630ffabcd80",
+            "target": "id-bd14bbe1-8db0-11e3-67ab-0050568a6153",
+            "type": "Realization",
+            "name": "Verplicht",
+            "name-lang": "en",
+            "properties": [
+                {
+                    "originId": "id-2615cd4d-6843-461d-be5c-d49d6125ce3d-propid-61",
+                    "propertyDefinitionRef": "propid-61",
+                    "value": "Verplicht",
+                    "value-lang": "en"
+                },
+                {
+                    "originId": "id-2615cd4d-6843-461d-be5c-d49d6125ce3d-propid-2",
+                    "propertyDefinitionRef": "propid-2",
+                    "value": "2615cd4d-6843-461d-be5c-d49d6125ce3d",
+                    "value-lang": "en"
+                }
+            ],
+            "@self": {
+                "id": "aa5576e6-9017-4512-9185-f4f3200cb764",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "properties.1.value": "2615cd4d-6843-461d-be5c-d49d6125ce3d"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1400",
+                "updated": "2025-05-02T11:30:04+00:00",
+                "created": "2025-05-02T11:30:04+00:00",
+                "published": "2025-05-02T11:30:04+00:00",
+                "deleted": null
+            },
+            "id": "aa5576e6-9017-4512-9185-f4f3200cb764"
+        },
+        "type": "Relationship",
+        "source": "id-36617",
+        "target": "id-36640",
+        "style": {
+            "originId": "id-36636-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        }
+    },
+    {
+        "originId": "id-36637",
+        "identifier": "id-36637",
+        "relationshipRef": {
+            "originId": "id-236f7f2e-83ec-48f1-8692-0b40e3bf89a3",
+            "identifier": "id-236f7f2e-83ec-48f1-8692-0b40e3bf89a3",
+            "source": "id-6c681cd8-9401-4103-82fc-51c0492d67e7",
+            "target": "id-bd14bbe1-8db0-11e3-67ab-0050568a6153",
+            "type": "Realization",
+            "name": "Aanbevolen",
+            "name-lang": "en",
+            "properties": [
+                {
+                    "originId": "id-236f7f2e-83ec-48f1-8692-0b40e3bf89a3-propid-61",
+                    "propertyDefinitionRef": "propid-61",
+                    "value": "Aanbevolen",
+                    "value-lang": "en"
+                },
+                {
+                    "originId": "id-236f7f2e-83ec-48f1-8692-0b40e3bf89a3-propid-2",
+                    "propertyDefinitionRef": "propid-2",
+                    "value": "236f7f2e-83ec-48f1-8692-0b40e3bf89a3",
+                    "value-lang": "en"
+                }
+            ],
+            "@self": {
+                "id": "9a062c0c-ac6e-41dd-8929-755176cb2e7e",
+                "uri": "",
+                "version": "0.0.1",
+                "register": "13",
+                "schema": "27",
+                "schemaVersion": null,
+                "files": [],
+                "relations": {
+                    "properties.1.value": "236f7f2e-83ec-48f1-8692-0b40e3bf89a3"
+                },
+                "locked": null,
+                "owner": "info@conduction.nl",
+                "folder": "",
+                "application": null,
+                "organisation": null,
+                "validation": null,
+                "geo": null,
+                "retention": null,
+                "size": "1404",
+                "updated": "2025-05-02T11:29:56+00:00",
+                "created": "2025-05-02T11:29:56+00:00",
+                "published": "2025-05-02T11:29:56+00:00",
+                "deleted": null
+            },
+            "id": "9a062c0c-ac6e-41dd-8929-755176cb2e7e"
+        },
+        "type": "Relationship",
+        "source": "id-36618",
+        "target": "id-36640",
+        "style": {
+            "originId": "id-36637-style",
+            "lineColor": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            },
+            "font": {
+                "name": "Segoe UI",
+                "size": "9"
+            },
+            "color": {
+                "r": "0",
+                "g": "0",
+                "b": "0"
+            }
+        }
+    }
+	]
