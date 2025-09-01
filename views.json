@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "id": "view-1",
+      "identifier": "view-1",
+      "name": "Voorbeeld view",
+      "properties": [
+        { "propertyDefinitionRef": "propid-title", "value": "Voorbeeld: Zaaksysteem en Zaak" }
+      ]
+    },
+    {
+      "id": "view-2",
+      "identifier": "view-2",
+      "name": "Alternatieve view",
+      "properties": [
+        { "propertyDefinitionRef": "propid-title", "value": "Alternatieve view" }
+      ]
+    }
+  ]
+}
