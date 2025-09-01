@@ -1,185 +1,429 @@
 {
-  "id": "view-lv01",
-  "name": "LV01 BGT basisregistratie en SVB view",
-  "documentation": "Mocked from GEMMA LV01.",
+  "id": "view-bbl-rc",
+  "identifier": "view-bbl-rc",
+  "name": "Basisbeveiligingsniveau van referentiecomponenten",
+  "documentation": "Weergave van relaties tussen (referentie)componenten en diensten.",
   "properties": [
-    { "propertyDefinitionRef": "propid-title", "value": "LV01 BGT basisregistratie en SVB view" }
+    { "propertyDefinitionRef": "propid-title", "value": "Basisbeveiligingsniveau van referentiecomponenten" }
   ],
   "nodes": [
     {
       "identifier": "vn-assembleren-bgt",
       "elementRef": "bs-assembleren",
-      "element": { "identifier": "bs-assembleren", "name": "Assembleren BGT aanleveringen van bronhouders", "type": "BusinessService", "documentation": "", "properties": [] },
       "position": { "x": 7, "y": 7, "w": 341, "h": 36 },
       "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 255, "g": 255, "b": 204 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 255, "g": 255, "b": 204, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "bs-assembleren",
+        "name": "Assembleren BGT aanleveringen van bronhouders",
+        "type": "BusinessService",
+        "documentation": ""
       }
     },
     {
       "identifier": "vn-beschikbaarstellen",
       "elementRef": "bs-beschikbaarstellen",
-      "element": { "identifier": "bs-beschikbaarstellen", "name": "Beschikbaarstelllen grootschalige topografie Nederland", "type": "BusinessService", "documentation": "", "properties": [] },
-      "position": { "x": 407, "y": 7, "w": 366, "h": 36 },
+      "position": { "x": 416, "y": 7, "w": 296, "h": 36 },
       "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 255, "g": 255, "b": 204 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 255, "g": 255, "b": 204, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "bs-beschikbaarstellen",
+        "name": "Beschikbaarstellen en vertalen BGT naar verschillende producten",
+        "type": "BusinessService",
+        "documentation": ""
       }
     },
     {
       "identifier": "vn-bijhouding-bgt",
-      "elementRef": "as-bijhouding-bgt",
-      "element": { "identifier": "as-bijhouding-bgt", "name": "Bijhouding BGT", "type": "ApplicationService", "documentation": "", "properties": [] },
-      "position": { "x": 187, "y": 85, "w": 153, "h": 36 },
+      "elementRef": "bp-bijhouding-bgt",
+      "position": { "x": 247, "y": 86, "w": 164, "h": 72 },
       "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 183, "g": 222, "b": 232 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 255, "g": 242, "b": 204, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "bp-bijhouding-bgt",
+        "name": "Bijhouding BGT",
+        "type": "BusinessProcess",
+        "documentation": ""
       }
     },
     {
       "identifier": "vn-lv-bgt",
-      "elementRef": "ac-lv-bgt",
-      "element": { "identifier": "ac-lv-bgt", "name": "LV-BGT - Basisregistratie Grootschalige Topografie", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 407, "y": 87, "w": 367, "h": 36 },
+      "elementRef": "do-lv-bgt",
+      "position": { "x": 514, "y": 86, "w": 164, "h": 72 },
       "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 204, "g": 255, "b": 255, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "do-lv-bgt",
+        "name": "Landelijke voorziening BGT",
+        "type": "DataObject",
+        "documentation": ""
       }
     },
     {
       "identifier": "vn-svb-bgt",
-      "elementRef": "ac-svb-bgt",
-      "element": { "identifier": "ac-svb-bgt", "name": "SVB-BGT services en portaal", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 7, "y": 165, "w": 228, "h": 36 },
+      "elementRef": "do-svb-bgt",
+      "position": { "x": 51, "y": 178, "w": 142, "h": 59 },
       "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 204, "g": 255, "b": 255, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "do-svb-bgt",
+        "name": "SVB BGT",
+        "type": "DataObject",
+        "documentation": ""
       }
     },
     {
       "identifier": "vn-aanleveringen-bgt",
-      "elementRef": "as-aanleveringen-bgt",
-      "element": { "identifier": "as-aanleveringen-bgt", "name": "Aanleveringen BGT", "type": "ApplicationService", "documentation": "", "properties": [] },
-      "position": { "x": 7, "y": 245, "w": 171, "h": 36 },
+      "elementRef": "do-aanleveringen-bgt",
+      "position": { "x": 51, "y": 242, "w": 142, "h": 59 },
       "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 183, "g": 222, "b": 232 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 204, "g": 255, "b": 255, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "do-aanleveringen-bgt",
+        "name": "Aanleveringen BGT",
+        "type": "DataObject",
+        "documentation": ""
       }
     },
     {
       "identifier": "vn-stuf-imgeo",
-      "elementRef": "constraint-stuf-imgeo",
-      "element": { "identifier": "constraint-stuf-imgeo", "name": "StUF Geo IMGeo", "type": "Constraint", "documentation": "", "properties": [] },
-      "position": { "x": 7, "y": 325, "w": 767, "h": 53 },
+      "elementRef": "as-stuf-imgeo",
+      "position": { "x": 51, "y": 324, "w": 142, "h": 59 },
       "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 204, "g": 204, "b": 255 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 183, "g": 222, "b": 232, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "as-stuf-imgeo",
+        "name": "STUF-IMGeo",
+        "type": "ApplicationService",
+        "documentation": ""
       }
     },
     {
       "identifier": "vn-bgt-beheer",
       "elementRef": "ac-bgt-beheer",
-      "element": { "identifier": "ac-bgt-beheer", "name": "BGT-beheercomponent", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 167, "y": 427, "w": 133, "h": 53 },
+      "position": { "x": 154, "y": 431, "w": 159, "h": 63 },
       "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 218, "g": 238, "b": 243, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
-      }
-    },
-    {
-      "identifier": "vn-gegevensdistributie",
-      "elementRef": "ac-gegevensdistributie",
-      "element": { "identifier": "ac-gegevensdistributie", "name": "Gegevensdistributiecomponent", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 347, "y": 427, "w": 133, "h": 53 },
-      "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
-        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
-      }
-    },
-    {
-      "identifier": "vn-gegevensmagazijn",
-      "elementRef": "ac-gegevensmagazijn",
-      "element": { "identifier": "ac-gegevensmagazijn", "name": "Gegevensmagazijncomponent", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 493, "y": 427, "w": 133, "h": 53 },
-      "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
-        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
-      }
-    },
-    {
-      "identifier": "vn-bor",
-      "elementRef": "ac-bor",
-      "element": { "identifier": "ac-bor", "name": "BOR-component", "type": "ApplicationComponent", "documentation": "", "properties": [] },
-      "position": { "x": 640, "y": 427, "w": 133, "h": 53 },
-      "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
-        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
-      }
-    },
-    {
-      "identifier": "vn-inwinnen",
-      "elementRef": "as-inwinnen-verwerken",
-      "element": { "identifier": "as-inwinnen-verwerken", "name": "Inwinnen en verwerken van geometrische gegevens", "type": "ApplicationService", "documentation": "", "properties": [] },
-      "position": { "x": 7, "y": 460, "w": 133, "h": 67 },
-      "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 183, "g": 222, "b": 232 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
-        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "ac-bgt-beheer",
+        "name": "BGT beheer applicatie",
+        "type": "ApplicationComponent",
+        "documentation": ""
       }
     },
     {
       "identifier": "vn-geo-inwincomponent",
       "elementRef": "ac-geo-inwin",
-      "element": { "identifier": "ac-geo-inwin", "name": "Geo-gegevens inwincomponent", "type": "ApplicationComponent", "documentation": "", "properties": [] },
       "position": { "x": 167, "y": 514, "w": 133, "h": 53 },
       "style": {
-        "color": { "r": 0, "g": 0, "b": 0 },
-        "fillColor": { "r": 218, "g": 238, "b": 243 },
-        "lineColor": { "r": 0, "g": 0, "b": 0 },
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 218, "g": 238, "b": 243, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
         "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "ac-geo-inwin",
+        "name": "Geo-gegevens inwincomponent",
+        "type": "ApplicationComponent",
+        "documentation": ""
+      }
+    },
+    {
+      "identifier": "vn-inwinnen",
+      "elementRef": "as-inwinnen-verwerken",
+      "position": { "x": 7, "y": 514, "w": 142, "h": 53 },
+      "style": {
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 183, "g": 222, "b": 232, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "as-inwinnen-verwerken",
+        "name": "Inwinnen en verwerken geo-gegevens",
+        "type": "ApplicationService",
+        "documentation": ""
+      }
+    },
+    {
+      "identifier": "vn-bor",
+      "elementRef": "ac-bor",
+      "position": { "x": 627, "y": 431, "w": 159, "h": 63 },
+      "style": {
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 218, "g": 238, "b": 243, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "ac-bor",
+        "name": "BOR applicatie",
+        "type": "ApplicationComponent",
+        "documentation": ""
+      }
+    },
+    {
+      "identifier": "vn-gegevensmagazijn",
+      "elementRef": "ac-gegevensmagazijn",
+      "position": { "x": 480, "y": 431, "w": 159, "h": 63 },
+      "style": {
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 218, "g": 238, "b": 243, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "ac-gegevensmagazijn",
+        "name": "Gegevensmagazijn applicatie",
+        "type": "ApplicationComponent",
+        "documentation": ""
+      }
+    },
+    {
+      "identifier": "vn-gegevensdistributie",
+      "elementRef": "ac-gegevensdistributie",
+      "position": { "x": 334, "y": 431, "w": 159, "h": 63 },
+      "style": {
+        "lineColor": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "fillColor": { "r": 218, "g": 238, "b": 243, "a": 1 },
+        "color": { "r": 0, "g": 0, "b": 0, "a": 1 },
+        "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" }
+      },
+      "element": {
+        "identifier": "ac-gegevensdistributie",
+        "name": "Gegevensdistributie applicatie",
+        "type": "ApplicationComponent",
+        "documentation": ""
       }
     }
   ],
   "connections": [
-    { "identifier": "rel-1", "relationshipRef": "rel-1", "source": "vn-aanleveringen-bgt", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 92.5, "y": 282.5 }, { "x": 92.5, "y": 314.06 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 }, "font": { "name": "Segoe UI, Arial", "size": 12, "style": "normal" } }, "relationship": { "identifier": "rel-1", "type": "realization", "properties": [] } },
-    { "identifier": "rel-2", "relationshipRef": "rel-2", "source": "vn-svb-bgt", "target": "vn-aanleveringen-bgt", "bendpoints": [{ "x": 92.5, "y": 202.5 }, { "x": 92.5, "y": 234.06 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-2", "type": "realization", "properties": [] } },
-    { "identifier": "rel-3", "relationshipRef": "rel-3", "source": "vn-svb-bgt", "target": "vn-assembleren-bgt", "bendpoints": [{ "x": 121, "y": 163.5 }, { "x": 121, "y": 53.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-3", "type": "realization", "properties": [] } },
-    { "identifier": "rel-4", "relationshipRef": "rel-4", "source": "vn-lv-bgt", "target": "vn-beschikbaarstellen", "bendpoints": [{ "x": 590, "y": 85.5 }, { "x": 590, "y": 53.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-4", "type": "realization", "properties": [] } },
-    { "identifier": "rel-5", "relationshipRef": "rel-5", "source": "vn-lv-bgt", "target": "vn-bijhouding-bgt", "bendpoints": [{ "x": 405.5, "y": 104 }, { "x": 350.94, "y": 104 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-5", "type": "realization", "properties": [] } },
-    { "identifier": "rel-6", "relationshipRef": "rel-6", "source": "vn-bijhouding-bgt", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 286, "y": 122.5 }, { "x": 286, "y": 128 }, { "x": 286, "y": 314.06 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-6", "type": "realization", "properties": [] } },
-    { "identifier": "rel-7", "relationshipRef": "rel-7", "source": "vn-bijhouding-bgt", "target": "vn-svb-bgt", "bendpoints": [{ "x": 210, "y": 122.5 }, { "x": 210, "y": 128 }, { "x": 210, "y": 162.56 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-7", "type": "serving", "properties": [] } },
-
-    { "identifier": "rel-8", "relationshipRef": "rel-8", "source": "vn-bgt-beheer", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 233.5, "y": 425.5 }, { "x": 233.5, "y": 388.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 }, "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" } }, "relationship": { "identifier": "rel-8", "type": "realization", "properties": [ { "propertyDefinitionRef": "propid-verbinding", "value": "Verplicht" } ] }, "label": { "text": "Verplicht" } },
-
-    { "identifier": "rel-9", "relationshipRef": "rel-9", "source": "vn-geo-inwincomponent", "target": "vn-inwinnen", "bendpoints": [{ "x": 165.5, "y": 520.5 }, { "x": 150.41, "y": 520.5 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }, "relationship": { "identifier": "rel-9", "type": "realization", "properties": [] } },
-
-    { "identifier": "rel-10", "relationshipRef": "rel-10", "source": "vn-bor", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 706.5, "y": 425.5 }, { "x": 706.5, "y": 388.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 }, "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" } }, "relationship": { "identifier": "rel-10", "type": "realization", "properties": [ { "propertyDefinitionRef": "propid-verbinding", "value": "Verplicht" } ] }, "label": { "text": "Verplicht" } },
-
-    { "identifier": "rel-11", "relationshipRef": "rel-11", "source": "vn-gegevensmagazijn", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 559.5, "y": 425.5 }, { "x": 559.5, "y": 388.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 }, "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" } }, "relationship": { "identifier": "rel-11", "type": "realization", "properties": [ { "propertyDefinitionRef": "propid-verbinding", "value": "Verplicht" } ] }, "label": { "text": "Verplicht" } },
-
-    { "identifier": "rel-12", "relationshipRef": "rel-12", "source": "vn-gegevensdistributie", "target": "vn-stuf-imgeo", "bendpoints": [{ "x": 413.5, "y": 425.5 }, { "x": 413.5, "y": 388.94 }], "style": { "color": { "r": 0, "g": 0, "b": 0, "a": 1 }, "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" } }, "relationship": { "identifier": "rel-12", "type": "realization", "properties": [ { "propertyDefinitionRef": "propid-verbinding", "value": "Aanbevolen" } ] }, "label": { "text": "Aanbevolen" } }
+    {
+      "identifier": "rel-1",
+      "source": "vn-aanleveringen-bgt",
+      "target": "vn-stuf-imgeo",
+      "relationshipRef": "rel-1",
+      "relationship": {
+        "identifier": "rel-1",
+        "type": "RealizationRelationship",
+        "properties": []
+      },
+      "bendpoints": [
+        { "x": 92.5, "y": 282.5 },
+        { "x": 92.5, "y": 314.06 }
+      ],
+      "style": { "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" }, "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }
+    },
+    {
+      "identifier": "rel-2",
+      "source": "vn-svb-bgt",
+      "target": "vn-aanleveringen-bgt",
+      "relationshipRef": "rel-2",
+      "relationship": {
+        "identifier": "rel-2",
+        "type": "RealizationRelationship",
+        "properties": []
+      },
+      "bendpoints": [
+        { "x": 92.5, "y": 202.5 },
+        { "x": 92.5, "y": 234.06 }
+      ]
+    },
+    {
+      "identifier": "rel-3",
+      "source": "vn-svb-bgt",
+      "target": "vn-assembleren-bgt",
+      "relationshipRef": "rel-3",
+      "relationship": {
+        "identifier": "rel-3",
+        "type": "RealizationRelationship",
+        "properties": []
+      },
+      "bendpoints": [
+        { "x": 121, "y": 163.5 },
+        { "x": 121, "y": 53.94 }
+      ]
+    },
+    {
+      "identifier": "rel-4",
+      "source": "vn-lv-bgt",
+      "target": "vn-beschikbaarstellen",
+      "relationshipRef": "rel-4",
+      "relationship": {
+        "identifier": "rel-4",
+        "type": "RealizationRelationship",
+        "properties": []
+      },
+      "bendpoints": [
+        { "x": 590, "y": 85.5 },
+        { "x": 590, "y": 53.94 }
+      ]
+    },
+    {
+      "identifier": "rel-5",
+      "source": "vn-lv-bgt",
+      "target": "vn-bijhouding-bgt",
+      "relationshipRef": "rel-5",
+      "relationship": {
+        "identifier": "rel-5",
+        "type": "RealizationRelationship",
+        "properties": []
+      },
+      "bendpoints": [
+        { "x": 405.5, "y": 104 },
+        { "x": 350.94, "y": 104 }
+      ]
+    },
+    {
+      "identifier": "rel-6",
+      "source": "vn-bijhouding-bgt",
+      "target": "vn-stuf-imgeo",
+      "relationshipRef": "rel-6",
+      "relationship": {
+        "identifier": "rel-6",
+        "type": "RealizationRelationship",
+        "properties": []
+      },
+      "bendpoints": [
+        { "x": 286, "y": 122.5 },
+        { "x": 286, "y": 128 },
+        { "x": 286, "y": 314.06 }
+      ]
+    },
+    {
+      "identifier": "rel-7",
+      "source": "vn-bijhouding-bgt",
+      "target": "vn-svb-bgt",
+      "relationshipRef": "rel-7",
+      "relationship": {
+        "identifier": "rel-7",
+        "type": "ServingRelationship",
+        "properties": []
+      },
+      "bendpoints": [
+        { "x": 210, "y": 122.5 },
+        { "x": 210, "y": 128 },
+        { "x": 210, "y": 162.56 }
+      ]
+    },
+    {
+      "identifier": "rel-8",
+      "source": "vn-bgt-beheer",
+      "target": "vn-stuf-imgeo",
+      "relationshipRef": "rel-8",
+      "relationship": {
+        "identifier": "rel-8",
+        "type": "RealizationRelationship",
+        "properties": [
+          { "propertyDefinitionRef": "propid-verbinding", "value": "Verplicht" }
+        ]
+      },
+      "bendpoints": [
+        { "x": 233.5, "y": 425.5 },
+        { "x": 233.5, "y": 388.94 }
+      ],
+      "style": { "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" }, "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }
+    },
+    {
+      "identifier": "rel-9",
+      "source": "vn-geo-inwincomponent",
+      "target": "vn-inwinnen",
+      "relationshipRef": "rel-9",
+      "relationship": {
+        "identifier": "rel-9",
+        "type": "RealizationRelationship",
+        "properties": []
+      },
+      "bendpoints": [
+        { "x": 165.5, "y": 520.5 },
+        { "x": 150.41, "y": 520.5 }
+      ]
+    },
+    {
+      "identifier": "rel-10",
+      "source": "vn-bor",
+      "target": "vn-stuf-imgeo",
+      "relationshipRef": "rel-10",
+      "relationship": {
+        "identifier": "rel-10",
+        "type": "RealizationRelationship",
+        "properties": [
+          { "propertyDefinitionRef": "propid-verbinding", "value": "Verplicht" }
+        ]
+      },
+      "bendpoints": [
+        { "x": 706.5, "y": 425.5 },
+        { "x": 706.5, "y": 388.94 }
+      ],
+      "style": { "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" }, "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }
+    },
+    {
+      "identifier": "rel-11",
+      "source": "vn-gegevensmagazijn",
+      "target": "vn-stuf-imgeo",
+      "relationshipRef": "rel-11",
+      "relationship": {
+        "identifier": "rel-11",
+        "type": "RealizationRelationship",
+        "properties": [
+          { "propertyDefinitionRef": "propid-verbinding", "value": "Verplicht" }
+        ]
+      },
+      "bendpoints": [
+        { "x": 559.5, "y": 425.5 },
+        { "x": 559.5, "y": 388.94 }
+      ],
+      "style": { "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" }, "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }
+    },
+    {
+      "identifier": "rel-12",
+      "source": "vn-gegevensdistributie",
+      "target": "vn-stuf-imgeo",
+      "relationshipRef": "rel-12",
+      "relationship": {
+        "identifier": "rel-12",
+        "type": "RealizationRelationship",
+        "properties": [
+          { "propertyDefinitionRef": "propid-verbinding", "value": "Aanbevolen" }
+        ]
+      },
+      "bendpoints": [
+        { "x": 413.5, "y": 425.5 },
+        { "x": 413.5, "y": 388.94 }
+      ],
+      "style": { "font": { "name": "Segoe UI, Arial", "size": 11, "style": "normal" }, "color": { "r": 0, "g": 0, "b": 0, "a": 1 } }
+    }
   ]
 }
