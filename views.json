@@ -1,4 +1,6 @@
- {
+{
+  "results": [
+    {
       "id": "view-lv01",
       "identifier": "view-lv01",
       "name": "LV01 BGT basisregistratie en SVB view",
@@ -6,3 +8,5 @@
         { "propertyDefinitionRef": "propid-title", "value": "LV01 BGT basisregistratie en SVB view" }
       ]
     }
+  ]
+}
