@@ -1,20 +1,8 @@
-{
-  "results": [
-    {
-      "id": "view-1",
-      "identifier": "view-1",
-      "name": "Voorbeeld view",
+ {
+      "id": "view-lv01",
+      "identifier": "view-lv01",
+      "name": "LV01 BGT basisregistratie en SVB view",
       "properties": [
-        { "propertyDefinitionRef": "propid-title", "value": "Voorbeeld: Zaaksysteem en Zaak" }
-      ]
-    },
-    {
-      "id": "view-2",
-      "identifier": "view-2",
-      "name": "Alternatieve view",
-      "properties": [
-        { "propertyDefinitionRef": "propid-title", "value": "Alternatieve view" }
+        { "propertyDefinitionRef": "propid-title", "value": "LV01 BGT basisregistratie en SVB view" }
       ]
     }
-  ]
-}
